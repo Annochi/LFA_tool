@@ -1,1 +1,0 @@
-python selftest.py --calc --database copper.db
