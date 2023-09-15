@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LFA_Model_Parameters>
+	<Parameter name = "Diffusivity">
+		<DefaultValue>10.0</DefaultValue>
+		<Min>0.0001</Min>
+		<Max>3000</Max>
+	</Parameter>
+	<Parameter name = "Biot">
+		<DefaultValue>1E-2</DefaultValue>
+		<Min>1E-10</Min>
+		<Max>10</Max>
+	</Parameter>
+	<Parameter name = "Biot_Faces">
+		<DefaultValue>0.1</DefaultValue>
+		<Min>1E-10</Min>
+		<Max>10</Max>
+	</Parameter>
+	<Parameter name = "Biot_Sides">
+		<DefaultValue>0.1</DefaultValue>
+		<Min>1E-10</Min>
+		<Max>10</Max>
+	</Parameter>
+	<Parameter name = "T_Inf">
+		<DefaultValue>0.01</DefaultValue>
+		<Min>1E-4</Min>
+		<Max>100</Max>
+	</Parameter>
+	<Parameter name = "Penetration">
+		<DefaultValue>0.01</DefaultValue>
+		<Min>0.0</Min>
+		<Max>10</Max>
+	</Parameter>
+	<Parameter name = "Radiation">
+		<DefaultValue>0.2</DefaultValue>
+		<Min>0.0</Min>
+		<Max>10</Max>
+	</Parameter>
+	<Parameter name = "BaselineOffset">
+		<DefaultValue>0.0</DefaultValue>
+		<Min>-20</Min>
+		<Max>20</Max>
+	</Parameter>
+	<Parameter name = "Resistance">
+		<DefaultValue>3</DefaultValue>
+		<Min>-10</Min>
+		<Max>20</Max>
+	</Parameter>
+	<Parameter name = "Diffusivity_Second_Layer">
+		<DefaultValue>1.0</DefaultValue>
+		<Min>0.0001</Min>
+		<Max>3000</Max>
+	</Parameter>
+</LFA_Model_Parameters>

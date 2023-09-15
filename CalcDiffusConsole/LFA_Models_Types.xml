@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LFA_Model_Types>
+	<Model name = "Adiabatic">
+		<SearchParameter>Diffusivity</SearchParameter>
+		<SearchParameter>T_Inf</SearchParameter>
+	</Model>
+	<Model name = "CapeLehman">
+		<SearchParameter>Diffusivity</SearchParameter>
+		<SearchParameter>Biot</SearchParameter>
+		<SearchParameter>T_Inf</SearchParameter>
+	</Model>
+	<Model name = "Cowan">
+		<SearchParameter>Diffusivity</SearchParameter>
+		<SearchParameter>Biot</SearchParameter>
+		<SearchParameter>T_Inf</SearchParameter>
+	</Model>
+	<Model name = "Radiation">
+		<SearchParameter>Diffusivity</SearchParameter>
+		<SearchParameter>Biot</SearchParameter>
+		<SearchParameter>T_Inf</SearchParameter>
+		<SearchParameter>Radiation</SearchParameter>
+	</Model>
+	<Model name = "Penetration">
+		<SearchParameter>Diffusivity</SearchParameter>
+		<SearchParameter>Biot</SearchParameter>
+		<SearchParameter>T_Inf</SearchParameter>
+		<SearchParameter>Penetration</SearchParameter>
+	</Model>
+	<Model name = "InPlaneIsotropic">
+		<SearchParameter>Diffusivity</SearchParameter>
+		<SearchParameter>Biot</SearchParameter>
+		<SearchParameter>T_Inf</SearchParameter>
+	</Model>
+	<Model name = "InPlaneAnisotropic">
+		<SearchParameter>Diffusivity</SearchParameter>
+		<SearchParameter>Biot</SearchParameter>
+		<SearchParameter>T_Inf</SearchParameter>
+	</Model>
+	<Model name = "InPlaneInwardIsotropic">
+		<SearchParameter>Diffusivity</SearchParameter>
+		<SearchParameter>Biot</SearchParameter>
+		<SearchParameter>T_Inf</SearchParameter>
+	</Model>
+	<Model name = "InPlaneInwardAnisotropic">
+		<SearchParameter>Diffusivity</SearchParameter>
+		<SearchParameter>Biot</SearchParameter>
+		<SearchParameter>T_Inf</SearchParameter>
+	</Model>
+	<Model name = "InPlaneSlitInwardIsotropic">
+		<SearchParameter>Diffusivity</SearchParameter>
+		<SearchParameter>Biot</SearchParameter>
+		<SearchParameter>T_Inf</SearchParameter>
+	</Model>
+	<Model name = "InPlaneSlitInwardAnisotropic">
+		<SearchParameter>Diffusivity</SearchParameter>
+		<SearchParameter>Biot</SearchParameter>
+		<SearchParameter>T_Inf</SearchParameter>
+	</Model>
+	<Model name = "TwoLayers">
+		<SearchParameter>Diffusivity</SearchParameter>
+		<SearchParameter>Biot</SearchParameter>
+		<SearchParameter>T_Inf</SearchParameter>
+	</Model>
+	<Model name = "TwoLayersAdiabatic">
+		<SearchParameter>Diffusivity</SearchParameter>
+		<SearchParameter>T_Inf</SearchParameter>
+	</Model>
+	<Model name = "TwoLayersContResist">
+		<SearchParameter>Diffusivity</SearchParameter>
+		<SearchParameter>Biot</SearchParameter>
+		<SearchParameter>Resistance</SearchParameter>		
+		<SearchParameter>T_Inf</SearchParameter>
+	</Model>
+	<Model name = "ThreeLayers">
+		<SearchParameter>Diffusivity</SearchParameter>
+		<SearchParameter>Biot</SearchParameter>
+		<SearchParameter>T_Inf</SearchParameter>
+	</Model>
+	<Model name = "ThreeLayersAdiabatic">
+		<SearchParameter>Diffusivity</SearchParameter>
+		<SearchParameter>T_Inf</SearchParameter>
+	</Model>
+	<Model name = "ThreeLayersContResist">
+		<SearchParameter>Diffusivity</SearchParameter>
+		<SearchParameter>Biot</SearchParameter>
+		<SearchParameter>Resistance</SearchParameter>
+		<SearchParameter>T_Inf</SearchParameter>
+	</Model>
+</LFA_Model_Types>
